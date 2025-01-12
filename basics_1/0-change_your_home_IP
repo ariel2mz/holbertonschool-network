@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # cambia las ips
-
+#permisos de ejecucion
 sleep 3
 
 echo "127.0.0.2 localhost" >> /etc/hosts
