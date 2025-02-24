@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# sadsadasdsa
+
+nc -l 98
