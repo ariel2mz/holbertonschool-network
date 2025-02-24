@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# asdasdsad
+
+ifconfig | grep -oP 'inet \K\d+(\.\d+){3}'
