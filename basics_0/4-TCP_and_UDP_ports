@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
 # comentario
 
+# comentario
 sudo ss -tulnpo | grep LISTEN
