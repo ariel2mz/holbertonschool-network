@@ -3,6 +3,10 @@
 # permisos de ejecucion
 sleep 3
 
+sudo cp /etc/hosts /etc/hosts.bak
 sudo sed -i '/localhost/d' /etc/hosts
 echo "127.0.0.2 localhost" | sudo tee -a /etc/hosts > /dev/null
+
 echo "8.8.8.8 facebook.com" | sudo tee -a /etc/hosts > /dev/null
+echo "Updated /etc/hosts:"
+cat /etc/hosts
